@@ -9,6 +9,34 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Rubik Puddles', cursive;
 font-family: 'Work Sans', sans-serif;
 }
+.nav-container{
+    background-color: rgba(229, 84, 115, 0.10) ;
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: 0.4px 0.4px #E55473; */
+    
+}
+.img-logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px 50px;
+  
+}
+.logo-banner{
+    padding-left:150px;
+
+}
+.menu{
+    display: flex;
+    gap: 20px  ;
+    list-style: none;
+    align-items: center;
+    padding-right: 100px;
+    
+}
+.menu li{
+    color: #E55473;
+}
 .head-container{
     background: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -216,6 +244,7 @@ text-align: center;
 font-size: 10px;
 
 font-weight: 600;
+padding-bottom: 30px;
 
 }
 
